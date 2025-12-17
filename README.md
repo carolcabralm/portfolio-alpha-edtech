@@ -27,7 +27,7 @@ O portfólio está dividido em 4 seções principais:
 1. **Home (Hero):** Apresentação inicial com animações de entrada.
 2. **Sobre Mim:** Breve resumo da minha trajetória e transição de carreira.
 3. **Skills:** Listagem das competências técnicas atuais.
-4. **Projetos:** Card responsivo detalhando o projeto desenvolvido no curso.
+4. **Projetos:** Card responsivo detalhando projetos desenvolvidos no curso.
 
 ---
 
