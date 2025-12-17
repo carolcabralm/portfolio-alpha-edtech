@@ -3,22 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio Caroline</title>
+    <title>Caroline Cabral | Portfólio Full Stack</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <header>
-
+    
+    <header class="header">
+        <nav class="nav">
+            <h1 class="logo">CC<span>.</span></h1>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
+        <section id="home" class="hero-section">
+            <div class="bio-content">
+                <p class="greeting">Olá, eu sou a</p>
+                <h2 class="name">Caroline Cabral</h2>
+                <p class="role">Aspirante a Desenvolvedora Full Stack</p> 
+                <div class="actions">
+                    <a href="https://www.linkedin.com/in/carolcabralm/" class="btn primary" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/carolcabralm" class="btn secondary" target="_blank">Github</a>
+                </div>
+            </div>
+            <div class="image-content">
+                <div class="image-container">
+                    <img src="carol.png" alt="Foto de perfil de Caroline Cabral"> 
+                </div>
+            </div>
+        </section>
 
+        <section id="sobre" class="about-section">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="about-container">
+                <div class="about-text">
+                    <p>Economista com doutorado e experiência acadêmica, atualmente em transição de carreira para o desenvolvimento de software. Encontrei na programação uma forma prática de aplicar análise, lógica e resolução de problemas na criação de soluções digitais.</p><br>
+                    <p>Apesar de me identificar fortemente com Back-end, tenho como objetivo me tornar uma desenvolvedora Full Stack e aprofundar meus estudos em Inteligência Artificial, sempre buscando boas práticas, código limpo e uma experiência de usuário bem pensada.</p>
+
+                </div>
+                <div class="skills">
+                    <h3>Minhas Skills</h3>
+                    <ul class="skills-list">
+                        <li>HTML</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>Figma</li>
+                        <li>Git & GitHub</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos" class="projects-section">
+            <h3 class="section-title">Projeto Alpha EdTech Beauty</h3>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-info">
+                        <p>Exercício do curso da Alpha EdTech para criar a página de um site utilizando html e css.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/carolcabralm/alpha-beauty" target="_blank" class="link-icon">Repositório</a>
+                            <a href="https://carolcabralm.github.io/alpha-beauty/" target="_blank" class="link-icon">Visualizar</a>
+                        </div>
+                    </div>
+                </article>
+                </div>
+        </section>
     </main>
 
-    <footer>
-
+    <footer class="footer">
+        <p>&copy; 2025 Caroline Cabral.</p>
     </footer>
-    
+
+    <script src="script.js"></script>
 </body>
 </html>
