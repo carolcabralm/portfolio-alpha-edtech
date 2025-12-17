@@ -9,7 +9,7 @@ Este é o meu portfólio online, desenvolvido como projeto para o curso **Alpha 
 ## 🎨 Design e Protótipo
 Seguindo os requisitos do projeto, o design foi planejado com foco em uma interface limpa, moderna e acessível.
 * **Ferramenta de Design:** Figma
-* **Protótipo:** [COLE_AQUI_O_LINK_DO_FIGMA]
+* **Protótipo:** [https://www.figma.com/design/iFaQAnxZISGzlNoT3AaNGG/Meu-Portfolio---Caroline-Cabral?node-id=0-1&t=J8IUFCWFVhsqfs0B-1]
 
 ---
 
